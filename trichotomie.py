@@ -1,6 +1,6 @@
 def trichotomie(liste, valeur):
     valeurMoyenne1 = len(liste) // 2
-    valeurMoyenne2 = valeurMoyenne1 // 4
+    valeurMoyenne2 = len(liste) // 4 #valeurMoyenne1 // 2
     valeurMoyenne3 = valeurMoyenne1 + valeurMoyenne2
     
     if valeur == liste[valeurMoyenne1] or valeur == liste[valeurMoyenne2] or valeur == liste[valeurMoyenne3]:
